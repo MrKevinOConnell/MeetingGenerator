@@ -1,6 +1,6 @@
-# CyberTA - Discord Queue Bot
+# MeetingGenerator - Discord Meeting Generator
 
-CyberTA was designed in the COVID-19 pandemic to help Operating Systems TAs with their queue based office hours. The inspiration came from other twitch.tv bots that allowed users to be put in a queue for games. It uses Discord.js and Heroku apps to create a 24/7 bot that monitors multiple text-channels.
+This is a Discord bot that allows people to generate meetings within a discord server. It uses Discord.js, Heroku and solidity. Based on
 
 # Commands
 
@@ -16,17 +16,9 @@ CyberTA was designed in the COVID-19 pandemic to help Operating Systems TAs with
 - `!clear` - clears the queue and deletes all `next` messages that were in the queue
 - `!help` - provides list of commands and their functions
 
-### Dependencies
+### Deploying with Heroku
 
-CyberTA uses the following tech:
-
-- [Discord] - Based communication software
-- [Discord.js] - chat bot language
-- [Heroku] - used for hosting the bot
-
-### Deploying CyberTA with Heroku
-
-These instructions are for installing CyberTA to a Heroku application. You will need a GitHub, Heroku, and discord developer account as well as manage server permissions to a Discord server.
+These instructions are for installing this bot to a Heroku application. You will need a GitHub, Heroku, and discord developer account as well as manage server permissions to a Discord server.
 
 1. Fork this repository to your GitHub account, or an account you have access to.
 
@@ -85,6 +77,5 @@ OFFICE_HOURS=<OFFICE_HOURS>
 MIT
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
-[discord]: https://discordapp.com/r
 [discord.js]: https://discord.js.org/#/
 [heroku]: https://www.heroku.com/home
